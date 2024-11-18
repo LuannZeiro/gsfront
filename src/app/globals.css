@@ -1,21 +1,55 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #D8FFDC;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  padding: 10px 20px;
+  border-radius: 15px;
+  max-width: 1000px;
+  margin: 20px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  gap: 40px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0 10px;
+  transition: color 0.3s;
+  color: #02282B;
+}
+
+.menu a:hover {
+  color: #3FC5FA;
+}
+
+.menu a:link,
+.menu a:visited,
+.menu a:active {
+  color: #02282B;
+}
+
+p{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.botao button {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  background-color: white;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  
 }
