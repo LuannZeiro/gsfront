@@ -1,11 +1,17 @@
-.botao button {
+.botao {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    align-items: center;    
+    height: 100px;          
+  }
+  
+
+  .botao button {
     background-color: white;
     border-radius: 12px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s, border-color 0.3s;
-}
-
+  }
+  
