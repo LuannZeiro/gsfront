@@ -6,7 +6,7 @@ export default function Menu() {
     return (
         <div className="menu">
             <label className="home">
-                <Link href="/">
+                <Link href="Home">
                     HOME
                 </Link>
             </label>
