@@ -7,7 +7,7 @@ const Title = styled.h1`
   font-weight: bold;
   color: #02282B;
   text-align: center;
-  margin: 20px 0;
+  margin: 50px;
 `;
 
 const Titulo = () => {

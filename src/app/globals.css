@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #f4fff5;
+  background-image: url(/PAINELSOLAR.jpg);
 }
 
 .menu {
@@ -38,8 +38,8 @@ body {
 }
 
 p{
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .botao button {
