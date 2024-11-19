@@ -11,7 +11,7 @@ export default function Menu() {
                 </Link>
             </label>
             <label className="comofun">
-                <Link href="/comofunciona">
+                <Link href="ComoFunciona">
                     COMO FUNCIONA
                 </Link>
             </label>
