@@ -25,7 +25,7 @@ export default function Menu() {
             </label>
 
             <label className="fornecedores">
-                <Link href="/fornecedores">
+                <Link href="Fornecedores">
                     FORNECEDORES
                 </Link>
             </label>
