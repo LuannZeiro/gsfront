@@ -19,7 +19,7 @@ export default function Menu() {
             <img src="LOGONOME.png" alt="logo" width="200px" />
 
             <label className="integrantes">
-                <Link href="/integrantes">
+                <Link href="Integrantes">
                     INTEGRANTES
                 </Link>
             </label>
