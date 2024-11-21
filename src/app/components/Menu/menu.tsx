@@ -24,9 +24,9 @@ export default function Menu() {
                 </Link>
             </label>
 
-            <label className="fornecedores">
-                <Link href="Fornecedores">
-                    FORNECEDORES
+            <label className="login">
+                <Link href="Logar">
+                    LOGIN
                 </Link>
             </label>
         </div>
