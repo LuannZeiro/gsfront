@@ -1,3 +1,4 @@
+import Texto from '../components/Beneficio1/beneficio1';
 import Menu from '../components/Menu/menu';
 import TituloBene from '../components/TituloBeneficios/titulobene';
 
@@ -6,6 +7,7 @@ export default function ComoFunciona() {
         <>
         <Menu />
         <TituloBene />
+        <Texto />
         </>
     )
 }

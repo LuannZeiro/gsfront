@@ -8,6 +8,8 @@ const Title = styled.h1`
   color: #02282B;
   text-align: center;
   margin: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
 `;
 
 const TituloBene = () => {
