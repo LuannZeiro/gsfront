@@ -10,6 +10,7 @@ export default function Integrantes() {
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '75vh' }}>
       <Henzo imageSrc="/HenzoFoto.jpg" title="Henzo Boschiero Puchetti - RM555179" />
       <Luann imageSrc="/luann2.jpg" title="Luann Domingos Mariano - RM558548" />
+      <Humberto imageSrc="/HumbertoFoto.jpg" title="Humberto Souza - RM558482" />
       </div>
         </>
     )
