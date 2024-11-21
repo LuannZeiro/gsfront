@@ -38,8 +38,12 @@ body {
 }
 
 p{
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: white;
+ opacity: 90%;
+  padding: 20px;
+  border-radius: 30px;
 }
 
 .botao button {
@@ -47,7 +51,7 @@ p{
     align-items: center;
     justify-content: center;
   background-color: white;
-  border-radius: 12px;
+  border-radius: 30px;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;

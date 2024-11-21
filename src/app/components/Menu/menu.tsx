@@ -10,9 +10,9 @@ export default function Menu() {
                     HOME
                 </Link>
             </label>
-            <label className="comofun">
-                <Link href="ComoFunciona">
-                    COMO FUNCIONA
+            <label className="beneficios">
+                <Link href="Beneficios">
+                    BENEFICIOS
                 </Link>
             </label>
 
