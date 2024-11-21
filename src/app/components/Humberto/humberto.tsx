@@ -72,7 +72,7 @@ const Humberto: React.FC<PhotoCardProps> = ({ imageSrc, title }) => {
           GitHub
         </Button>
         <Button
-          href="https://www.linkedin.com/in/luann-mariano"
+          href="https://www.linkedin.com/in/humbertosouza835/"
           target="_blank"
           rel="noopener noreferrer"
           bgColor="#0077b5"
