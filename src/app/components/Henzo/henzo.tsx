@@ -1,5 +1,3 @@
-'use client';
-
 import styled from 'styled-components';
 
 
@@ -37,7 +35,7 @@ type PhotoCardProps = {
   title: string;
 };
 
-const Henzo: React.FC<PhotoCardProps> = ({ imageSrc, title }) => {
+const PhotoCard: React.FC<PhotoCardProps> = ({ imageSrc, title }) => {
   return (
     <Card>
       <Image src={imageSrc} alt={title} />
@@ -46,4 +44,4 @@ const Henzo: React.FC<PhotoCardProps> = ({ imageSrc, title }) => {
   );
 };
 
-export default Henzo;
+export default PhotoCard;
