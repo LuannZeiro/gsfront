@@ -64,7 +64,7 @@ const Humberto: React.FC<PhotoCardProps> = ({ imageSrc, title }) => {
       <Title>{title}</Title>
       <ButtonContainer>
         <Button
-          href="https://github.com/luannzeiro"
+          href="https://github.com/humbertosouzaa"
           target="_blank"
           rel="noopener noreferrer"
           bgColor="#333"
