@@ -57,7 +57,7 @@ type PhotoCardProps = {
   title: string;
 };
 
-const Luann: React.FC<PhotoCardProps> = ({ imageSrc, title }) => {
+const Humberto: React.FC<PhotoCardProps> = ({ imageSrc, title }) => {
   return (
     <Card>
       <Image src={imageSrc} alt={title} />
@@ -84,4 +84,4 @@ const Luann: React.FC<PhotoCardProps> = ({ imageSrc, title }) => {
   );
 };
 
-export default Luann;
+export default Humberto;
