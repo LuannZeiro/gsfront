@@ -1,3 +1,5 @@
+'use client';
+
 import styled from 'styled-components';
 
 
@@ -6,8 +8,8 @@ const Card = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   background-color: #ffffff;
   border: 2px solid #ddd;
   border-radius: 10px;
@@ -35,7 +37,7 @@ type PhotoCardProps = {
   title: string;
 };
 
-const PhotoCard: React.FC<PhotoCardProps> = ({ imageSrc, title }) => {
+const Henzo: React.FC<PhotoCardProps> = ({ imageSrc, title }) => {
   return (
     <Card>
       <Image src={imageSrc} alt={title} />
@@ -44,4 +46,4 @@ const PhotoCard: React.FC<PhotoCardProps> = ({ imageSrc, title }) => {
   );
 };
 
-export default PhotoCard;
+export default Henzo;
