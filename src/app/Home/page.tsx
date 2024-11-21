@@ -5,7 +5,6 @@ import Titulo from '../components/Titulo/titulo';
 import Texto2 from '../components/Texto2/texto2';
 import Texto3 from '../components/Texto3/texto3';
 import Texto4 from '../components/Texto4/texto4';
-import Login from '../components/Login/login';
 
 export default function Home() {
     return (
@@ -17,7 +16,6 @@ export default function Home() {
             <Texto3 />
             <Texto4 />
             <Botao />
-            <Login />
         </>
     );
 }
