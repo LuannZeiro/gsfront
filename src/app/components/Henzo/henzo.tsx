@@ -35,7 +35,7 @@ type PhotoCardProps = {
   title: string;
 };
 
-const PhotoCard: React.FC<PhotoCardProps> = ({ imageSrc, title }) => {
+const Henzo: React.FC<PhotoCardProps> = ({ imageSrc, title }) => {
   return (
     <Card>
       <Image src={imageSrc} alt={title} />
@@ -44,4 +44,4 @@ const PhotoCard: React.FC<PhotoCardProps> = ({ imageSrc, title }) => {
   );
 };
 
-export default PhotoCard;
+export default Henzo;
