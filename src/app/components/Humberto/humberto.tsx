@@ -8,7 +8,7 @@ const Card = styled.div`
   align-items: center;
   justify-content: center;
   width: 400px;
-  height: 400px; /* Ajuste para comportar os botões */
+  height: 400px;
   margin: 10px;
   background-color: #ffffff;
   border: 2px solid #ddd;
