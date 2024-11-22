@@ -15,7 +15,7 @@ const Title = styled.h1`
 const TituloBene = () => {
     return (
         <Title>
-            A energia limpa traz inúmeros benefícios para empresas como a Greenwatts, que atuam nesse setor. Alguns dos principais são:
+            A energia limpa traz inúmeros benefícios. Alguns dos principais são:
         </Title>
     );
 };
