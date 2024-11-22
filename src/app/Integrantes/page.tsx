@@ -1,7 +1,4 @@
 //Integrantes
-// Henzo
-// Luann
-// Humberto
 
 import Menu from '../components/Menu/menu';
 import Henzo from '../components/Henzo/henzo';
