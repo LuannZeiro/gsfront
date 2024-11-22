@@ -1,4 +1,5 @@
-import Texto from '../components/Beneficio1/beneficio1';
+import Beneficio1 from '../components/Beneficio1/beneficio1';
+import Beneficio2 from '../components/Beneficio2/beneficio2';
 import Menu from '../components/Menu/menu';
 import TituloBene from '../components/TituloBeneficios/titulobene';
 
@@ -7,7 +8,8 @@ export default function ComoFunciona() {
         <>
         <Menu />
         <TituloBene />
-        <Texto />
+        <Beneficio1 />
+        <Beneficio2 />
         </>
     )
 }
