@@ -1,3 +1,5 @@
+//Integrantes
+
 import Menu from '../components/Menu/menu';
 import Henzo from '../components/Henzo/henzo';
 import Luann from '../components/Luann/luann';
